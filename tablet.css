@@ -1,14 +1,42 @@
-.anillo{
-    width: 30vw;
-    height: 40vh;
-    font-size: 1.3rem;
+.container{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.container img{
+    display: flex;
+    width: 25px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.canti{
+    color: var(--primay-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 17px;
+    width: 17px;
+    top: 5px;
+    margin-left: 2.5rem;
+    background-color: #7EA3B9;
 }
 
 .anillo_pla{
-    width: 25vw;
-    height: 30vh;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     flex-wrap: wrap;
+}
+
+.shopping{
+    grid-template-columns: repeat(auto-fill,15rem);
+    font-size: var(--sm);
 }
 
 .presen{
@@ -50,3 +78,4 @@
     font-weight: bold;
     margin-left: 1rem;
 }
+
